@@ -13,6 +13,16 @@
 		7F3CE98222925D4D008DFC9E /* fear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CE98022925D4D008DFC9E /* fear.xcdatamodeld */; };
 		7F3CE98422925D4F008DFC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CE98322925D4F008DFC9E /* Assets.xcassets */; };
 		7F3CE98722925D4F008DFC9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CE98522925D4F008DFC9E /* LaunchScreen.storyboard */; };
+		7F3CE98F229262F9008DFC9E /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CE98E229262F9008DFC9E /* Extensions+UIView.swift */; };
+		7FD76ED8229330F40083C604 /* Flies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD76ED7229330F40083C604 /* Flies.swift */; };
+		7FD864F42299B04C00A0C013 /* horor-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD864F32299B04C00A0C013 /* horor-3.mp3 */; };
+		7FD864F6229A546F00A0C013 /* scream1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD864F5229A546F00A0C013 /* scream1.mp3 */; };
+		7FD864F8229AD69900A0C013 /* scream2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD864F7229AD69900A0C013 /* scream2.mp3 */; };
+		7FD86652229708B4000F7C2D /* flies-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD86651229708B4000F7C2D /* flies-sound.mp3 */; };
+		7FD8665622971161000F7C2D /* horor-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8665522971161000F7C2D /* horor-1.mp3 */; };
+		7FD8665822971209000F7C2D /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8665722971209000F7C2D /* Composer.swift */; };
+		7FD8665A2297AF47000F7C2D /* horor-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FD866592297AF47000F7C2D /* horor-2.mp3 */; };
+		7FE34ABF2295D7EB006BAD40 /* LightEyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE34ABE2295D7EB006BAD40 /* LightEyes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		7F3CE98322925D4F008DFC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F3CE98622925D4F008DFC9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F3CE98822925D4F008DFC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3CE98E229262F9008DFC9E /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extensions+UIView.swift"; path = "../../My Components/Auto Layout Extensions/Auto Layout Extensions/Extensions+UIView.swift"; sourceTree = "<group>"; };
+		7FD76ED7229330F40083C604 /* Flies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flies.swift; sourceTree = "<group>"; };
+		7FD864F32299B04C00A0C013 /* horor-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horor-3.mp3"; sourceTree = "<group>"; };
+		7FD864F5229A546F00A0C013 /* scream1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream1.mp3; sourceTree = "<group>"; };
+		7FD864F7229AD69900A0C013 /* scream2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream2.mp3; sourceTree = "<group>"; };
+		7FD86651229708B4000F7C2D /* flies-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "flies-sound.mp3"; sourceTree = "<group>"; };
+		7FD8665522971161000F7C2D /* horor-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "horor-1.mp3"; path = "../../../../../AppleAcademy/Challenge/Nano Challenge 1/Resources/horor-1.mp3"; sourceTree = "<group>"; };
+		7FD8665722971209000F7C2D /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
+		7FD866592297AF47000F7C2D /* horor-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horor-2.mp3"; sourceTree = "<group>"; };
+		7FE34ABE2295D7EB006BAD40 /* LightEyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightEyes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,41 @@
 		7F3CE97822925D4D008DFC9E /* fear */ = {
 			isa = PBXGroup;
 			children = (
+				7FD76ED6229330A90083C604 /* Elements */,
 				7F3CE97922925D4D008DFC9E /* AppDelegate.swift */,
 				7F3CE97B22925D4D008DFC9E /* ViewController.swift */,
 				7F3CE97D22925D4D008DFC9E /* Main.storyboard */,
 				7F3CE98322925D4F008DFC9E /* Assets.xcassets */,
 				7F3CE98522925D4F008DFC9E /* LaunchScreen.storyboard */,
 				7F3CE98822925D4F008DFC9E /* Info.plist */,
+				7FD866502296CC08000F7C2D /* Sounds */,
+				7F3CE98E229262F9008DFC9E /* Extensions+UIView.swift */,
 				7F3CE98022925D4D008DFC9E /* fear.xcdatamodeld */,
 			);
 			path = fear;
+			sourceTree = "<group>";
+		};
+		7FD76ED6229330A90083C604 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				7FD76ED7229330F40083C604 /* Flies.swift */,
+				7FE34ABE2295D7EB006BAD40 /* LightEyes.swift */,
+				7FD8665722971209000F7C2D /* Composer.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		7FD866502296CC08000F7C2D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7FD864F7229AD69900A0C013 /* scream2.mp3 */,
+				7FD864F5229A546F00A0C013 /* scream1.mp3 */,
+				7FD864F32299B04C00A0C013 /* horor-3.mp3 */,
+				7FD866592297AF47000F7C2D /* horor-2.mp3 */,
+				7FD8665522971161000F7C2D /* horor-1.mp3 */,
+				7FD86651229708B4000F7C2D /* flies-sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +145,11 @@
 				TargetAttributes = {
 					7F3CE97522925D4D008DFC9E = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,8 +176,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD8665622971161000F7C2D /* horor-1.mp3 in Resources */,
+				7FD864F42299B04C00A0C013 /* horor-3.mp3 in Resources */,
 				7F3CE98722925D4F008DFC9E /* LaunchScreen.storyboard in Resources */,
 				7F3CE98422925D4F008DFC9E /* Assets.xcassets in Resources */,
+				7FD864F8229AD69900A0C013 /* scream2.mp3 in Resources */,
+				7FD86652229708B4000F7C2D /* flies-sound.mp3 in Resources */,
+				7FD864F6229A546F00A0C013 /* scream1.mp3 in Resources */,
+				7FD8665A2297AF47000F7C2D /* horor-2.mp3 in Resources */,
 				7F3CE97F22925D4D008DFC9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +197,10 @@
 			files = (
 				7F3CE98222925D4D008DFC9E /* fear.xcdatamodeld in Sources */,
 				7F3CE97C22925D4D008DFC9E /* ViewController.swift in Sources */,
+				7FD76ED8229330F40083C604 /* Flies.swift in Sources */,
+				7F3CE98F229262F9008DFC9E /* Extensions+UIView.swift in Sources */,
+				7FD8665822971209000F7C2D /* Composer.swift in Sources */,
+				7FE34ABF2295D7EB006BAD40 /* LightEyes.swift in Sources */,
 				7F3CE97A22925D4D008DFC9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUHXR699G4;
 				INFOPLIST_FILE = fear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UUHXR699G4;
 				INFOPLIST_FILE = fear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,101 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fear" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-8" translatesAutoresizingMaskIntoConstraints="NO" id="gSX-2b-4W2">
+                                <rect key="frame" x="-21" y="-10" width="451" height="906"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-7" translatesAutoresizingMaskIntoConstraints="NO" id="4c5-hJ-LSF">
+                                <rect key="frame" x="-34" y="-23" width="474" height="939"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-6" translatesAutoresizingMaskIntoConstraints="NO" id="fan-vx-QT8">
+                                <rect key="frame" x="-34" y="-23" width="494" height="950"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-5" translatesAutoresizingMaskIntoConstraints="NO" id="bLV-qx-llA">
+                                <rect key="frame" x="-34" y="-23" width="474" height="950"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-4" translatesAutoresizingMaskIntoConstraints="NO" id="Tjw-b6-cc1">
+                                <rect key="frame" x="-15" y="-30" width="437" height="946"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9H-lw-Htd">
+                                <rect key="frame" x="-15" y="0.0" width="429" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-3" translatesAutoresizingMaskIntoConstraints="NO" id="oZw-CD-Y8x">
+                                <rect key="frame" x="-60" y="-68" width="572" height="993"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-2" translatesAutoresizingMaskIntoConstraints="NO" id="mnH-IY-Xn0">
+                                <rect key="frame" x="-34" y="-89" width="494" height="1016"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-1" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-9I-gLI">
+                                <rect key="frame" x="-50" y="-178" width="553" height="1125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="layer-0 " translatesAutoresizingMaskIntoConstraints="NO" id="nki-bz-iav">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" allowsDirectInteraction="YES"/>
+                                </accessibility>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7Gh-Bx-lCa" appends="YES" id="6oO-Qw-bOu"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jumpscare" translatesAutoresizingMaskIntoConstraints="NO" id="gle-vX-GSd">
+                                <rect key="frame" x="84" y="768" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="layer0" destination="nki-bz-iav" id="DWq-Hz-Qa2"/>
+                        <outlet property="layer1" destination="BPa-9I-gLI" id="EPR-aD-FK0"/>
+                        <outlet property="layer2" destination="mnH-IY-Xn0" id="lXh-fe-SQ1"/>
+                        <outlet property="layer3" destination="oZw-CD-Y8x" id="7Qh-m2-7ZN"/>
+                        <outlet property="layer4" destination="Tjw-b6-cc1" id="lbB-9h-Sj5"/>
+                        <outlet property="layer5" destination="bLV-qx-llA" id="9I6-Or-3wi"/>
+                        <outlet property="layer6" destination="fan-vx-QT8" id="0nc-Wu-FcL"/>
+                        <outlet property="layer7" destination="4c5-hJ-LSF" id="c5p-ZX-aKh"/>
+                        <outlet property="layer8" destination="gSX-2b-4W2" id="7lt-29-diq"/>
+                        <outlet property="monster" destination="gle-vX-GSd" id="Cdo-ca-lX6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="7Gh-Bx-lCa">
+                    <connections>
+                        <action selector="cutingRope:" destination="BYZ-38-t0r" id="I9h-6G-jo3"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="71.651785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="jumpscare" width="414" height="896"/>
+        <image name="layer-0 " width="414" height="896"/>
+        <image name="layer-1" width="414" height="896"/>
+        <image name="layer-2" width="414" height="896"/>
+        <image name="layer-3" width="414" height="896"/>
+        <image name="layer-4" width="414" height="896"/>
+        <image name="layer-5" width="414" height="896"/>
+        <image name="layer-6" width="414" height="896"/>
+        <image name="layer-7" width="414" height="896"/>
+        <image name="layer-8" width="414" height="896"/>
+    </resources>
 </document>
